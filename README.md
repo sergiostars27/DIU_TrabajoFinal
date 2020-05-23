@@ -56,11 +56,15 @@ posibles soluciones.
 
 ####Persona 1: Mario Ruiz Orejón
 
+![](./Personas/Mario.jpg)
+
 En esto caso buscamos ejemplificar los problemas de accesibilidad que presenta
 la página, tanto en ausencia de información, como problemas propios que pueden
-aparecer en la página.
+aparecer.
 
 ####Persona 1: Amanda López Alcalá
+
+![](./Personas/Amanda.jpg)
 
 Esta persona representa alguien extremadamente profesional que está interesado
 en el coworking y que puede ser extremadamente quisquillosa con los problemas que
@@ -228,3 +232,67 @@ de accesibilidad.
 
 Estos han sido los principales problemas encontrados, otras discapacidades no han
 dado muchos problemas como cegueras de ciertos colores o déficit de atención.
+Por las extensiones que leen la página para las personas que no pueden leerla por
+si mismas no funcionan muy bien, por lo que deberíamos de asegurarnos que interaccionan
+de forma correcta con el menú de la cabecera y el pie.
+
+## Tercera Etapa. Wireframes
+
+Teniendo en cuenta los fallos y problemas encontrados en las dos etapas anteriores
+hemos re diseñado la página con una serie de wireframes que mostraremos a continuación:
+
+![](./Wireframes/P_Principal.png)
+
+En la página principal hemos eliminado toda la información sobre la pecera
+comunicación para centrar el mensaje en el espacio de coworking, añadiremos
+información sobre la pecera y el enlace a su página propia en el apartado
+de sobre nosotros que hemos añadido en el pie. Otros cambios es agrandar el
+apartado de búsqueda para que aparezca la zona donde escribimos sin necesidad de
+darle a la lupa, lo que puede ayudar a personas con discapacidades al hacerlo más
+visible y fácil de clickar. Por último y como hemos mencionado antes se ha añadido
+un pie con información legal sobre la página, un sitemap, la información de accesibilidad
+y la información sobre nosotros que hablará de la empresa en general y sus otro
+proyectos (la pecera). Además hemos colocado los enlaces a redes sociales aquí.
+
+Obviaremos los wireframes del la información legal sobre la página, sitemap,
+accesibilidad  y información sobre nosotros pues no tienen nada destacable.
+
+![](./Wireframes/P_EspacioCowork.png)
+
+En esta página no hay muchos cambios, pero presentará accesos a las páginas sobre
+tarifas y coworkers ya que tiene mucho sentido poder acceder a ellas a traves de
+esta página y no solo desde el menú, eliminaremos el apartado de alquiler sala ya
+que no es necesario y la información que contiene puede ir en esta página sin mucho
+problema. Obviamente se eliminarían los errores de php.
+
+La página de tarifas se mantiene igual, pero cambiando la parte de contacto que
+actualmente presenta un rectángulo que casi parece representar un error por
+el clásico formulario que presentan el resto de subpáginas. Además al pulsar reservar
+se nos llevara a una página distinta de la de contacto con el siguiente formulario:
+
+![](./Wireframes/P_Pago.png)
+
+Esta página será un formulario de pago que nos permitirá elegir el método de pago,
+cambiar la tarifa si lo deseamos, y nos pedirá introducir un correo y teléfono para
+estar en contacto. Además habrá un espacio donde los usuarios podrán escribir cualquier
+duda o consulta.
+
+La página de coworkers no cambia mucho. Unicamente añadiremos el formulario de
+contacto al final y cambiaremos un baner de color verde a rojo para mantener la
+cohesión de la página.
+
+La parte del blog presentará cambios similares, cambiando el fondo de la parte
+donde se habla de que son ganadores de un premio por un tono más oscuro de
+gris para aumentar el contraste. También añadiremos el formulario de contacto
+al final.
+
+La página de contacto se mantendrá igual.
+
+## Conclusión
+
+Ha sido muy interesante analizar una página ya existente e intentar mejorarla, sobre
+todo con la libertad de elegir en que nos queremos enfocar más. En mi caso he decidido
+dar mucha importancia a la accesibilidad a la vez que solucionaba errores básicos que
+la página presentaba. Obviamente al tener poco tiempo se han dejado de lado muchas
+técnicas optimas que se tendrían que utilizar en casos reales con tiempos extensos.
+Pero en general creo que el resultado es bueno y una mejora al inicial.
