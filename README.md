@@ -54,7 +54,7 @@ página. Para lograrlo comenzaremos creando dos personas para que nos sirvan de
 guía a la hora de identificar mejor los problemas y poder encontrar las
 posibles soluciones.
 
-####Persona 1: Mario Ruiz Orejón
+**Persona 1: Mario Ruiz Orejón**
 
 ![](./Personas/Mario.jpg)
 
@@ -62,7 +62,7 @@ En esto caso buscamos ejemplificar los problemas de accesibilidad que presenta
 la página, tanto en ausencia de información, como problemas propios que pueden
 aparecer.
 
-####Persona 1: Amanda López Alcalá
+**Persona 1: Amanda López Alcalá**
 
 ![](./Personas/Amanda.jpg)
 
@@ -70,12 +70,12 @@ Esta persona representa alguien extremadamente profesional que está interesado
 en el coworking y que puede ser extremadamente quisquillosa con los problemas que
 presenta la página.
 
-###Escenarios
+**Escenarios**
 
 Para encontrar fallos de diseño de forma más sencilla, someteremos a nuestras
 personas a una serie de escenarios:
 
-####Escenario 1
+**Escenario 1**
 
 *Persona:* Mario Ruiz Orejón
 
@@ -114,7 +114,7 @@ lo que puede ser muy problemático para mucha gente y el comportamiento con
 extensiones que leen la página es muy malo. En el lado positivo el comportamiento
 con el zoom estandar de página es bastante bueno.
 
-####Escenario 2
+**Escenario 2**
 
 *Persona:* Amanda López Alcalá
 
@@ -155,7 +155,7 @@ y que no merece su tiempo. Por último puede ser extraño que la información so
 la pecera de comunicación esté en la misma página siendo que no tiene nada que ver
 con el coworking.
 
-###Conclusión
+**Conclusión**
 
 Gracias a estos escenarios hemos podido discernir una serie de problemas:
 
@@ -199,7 +199,7 @@ la página aplicando una serie de discapacidades y apuntando los problemas
 encontrados y posibles soluciones (las extensiones usadas son Web Disability Simulator y
 Funkify–Disability Simulator).
 
-###Visión borrosa
+**Visión borrosa**
 
 *Problemas:* Algunos iconos son muy pequeños y no se distinguen
 
@@ -207,7 +207,7 @@ Funkify–Disability Simulator).
 escrito como los iconos de redes sociales añadir el nombre de la red por escrito
 cerca del icono
 
-###Parkinson o temblores
+**Parkinson o temblores**
 
 *Problemas:* Algunos iconos son muy pequeños y difíciles de clikcar.
 
@@ -216,7 +216,7 @@ grande, pero la zona clickable es solo el centro de la misma (como el icono de
 búsqueda o el logo). Sería recomendable aumentar el tamaño de la zona a la que
 puedes hacer click.
 
-###Visión de tunel
+**Visión de tunel**
 
 *Problemas:* Algunos elementos están en zonas poco intuitivas y pueden ser
 difíciles de encontrar.
@@ -224,7 +224,7 @@ difíciles de encontrar.
 *Solución:* Cambiar la colocación de estos elementos y comentarla en el apartado
 de accesibilidad.
 
-###Ceguera de colores
+**Ceguera de colores**
 
 *Problemas:* Hay poco contraste entre algunos fondos y la letra
 
